@@ -2,460 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad9e38d6-f4bb-4d73-9a7e-007a1858fd68" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/css/bootstrap/bootstrap-grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/css/bootstrap/bootstrap-grid.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/css/bootstrap/bootstrap-grid.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/css/bootstrap/bootstrap-grid.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/css/bootstrap/bootstrap-reboot.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/css/bootstrap/bootstrap-reboot.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/css/bootstrap/bootstrap-reboot.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/css/bootstrap/bootstrap-reboot.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/css/bootstrap/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/css/bootstrap/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/css/bootstrap/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/css/bootstrap/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/css/sb-admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/css/sb-admin.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/css/sidebar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/img/logo_full.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/img/logo_toggl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/js/angular/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/js/bootstrap/bootstrap.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/js/bootstrap/bootstrap.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/js/bootstrap/bootstrap.bundle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/js/bootstrap/bootstrap.bundle.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/js/bootstrap/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/js/bootstrap/bootstrap.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/js/bootstrap/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/js/bootstrap/bootstrap.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/js/jquery/jquery-3.2.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/js/sb-admin-charts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/js/sb-admin-charts.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/js/sb-admin-datatables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/js/sb-admin-datatables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/js/sb-admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/js/sb-admin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/scss/_cards.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/scss/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/scss/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/scss/_login.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/scss/_utilities.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/scss/navbar/_navbar_colors.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/scss/navbar/_navbar_fixed.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/scss/navbar/_navbar_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/scss/navbar/_navbar_static.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/scss/navbar/_navbar_toggle.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/scss/sb-admin.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/bootstrap/css/bootstrap-grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/bootstrap/css/bootstrap-grid.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/bootstrap/css/bootstrap-reboot.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/bootstrap/css/bootstrap-reboot.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/bootstrap/js/bootstrap.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/bootstrap/js/bootstrap.bundle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/bootstrap/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/chart.js/Chart.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/chart.js/Chart.bundle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/chart.js/Chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/chart.js/Chart.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/datatables/dataTables.bootstrap4.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/datatables/dataTables.bootstrap4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/datatables/jquery.dataTables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/less/animated.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/less/screen-reader.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/scss/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/scss/_screen-reader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/font-awesome/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/jquery-easing/jquery.easing.compatibility.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/jquery-easing/jquery.easing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/jquery-easing/jquery.easing.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/vendor/jquery/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/views/authentification/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/views/error/error.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/views/menu/client.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/views/menu/dashboard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/views/menu/project.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/views/menu/team.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/resources/static/views/menu/workspace.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/css/bootstrap/bootstrap-grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/css/bootstrap/bootstrap-grid.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/css/bootstrap/bootstrap-grid.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/css/bootstrap/bootstrap-grid.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/css/bootstrap/bootstrap-reboot.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/css/bootstrap/bootstrap-reboot.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/css/bootstrap/bootstrap-reboot.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/css/bootstrap/bootstrap-reboot.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/css/bootstrap/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/css/bootstrap/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/css/bootstrap/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/css/bootstrap/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/css/sb-admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/css/sb-admin.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/css/sidebar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/img/logo_full.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/img/logo_toggl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/js/angular/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/js/bootstrap/bootstrap.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/js/bootstrap/bootstrap.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/js/bootstrap/bootstrap.bundle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/js/bootstrap/bootstrap.bundle.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/js/bootstrap/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/js/bootstrap/bootstrap.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/js/bootstrap/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/js/bootstrap/bootstrap.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/js/jquery/jquery-3.2.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/js/sb-admin-charts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/js/sb-admin-charts.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/js/sb-admin-datatables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/js/sb-admin-datatables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/js/sb-admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/js/sb-admin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/scss/_cards.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/scss/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/scss/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/scss/_login.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/scss/_utilities.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/scss/navbar/_navbar_colors.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/scss/navbar/_navbar_fixed.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/scss/navbar/_navbar_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/scss/navbar/_navbar_static.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/scss/navbar/_navbar_toggle.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/scss/sb-admin.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/bootstrap/css/bootstrap-grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/bootstrap/css/bootstrap-grid.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/bootstrap/css/bootstrap-reboot.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/bootstrap/css/bootstrap-reboot.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/bootstrap/js/bootstrap.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/bootstrap/js/bootstrap.bundle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/bootstrap/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/chart.js/Chart.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/chart.js/Chart.bundle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/chart.js/Chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/chart.js/Chart.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/datatables/dataTables.bootstrap4.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/datatables/dataTables.bootstrap4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/datatables/jquery.dataTables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/less/animated.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/less/screen-reader.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/scss/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/scss/_screen-reader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/font-awesome/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/jquery-easing/jquery.easing.compatibility.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/jquery-easing/jquery.easing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/jquery-easing/jquery.easing.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/vendor/jquery/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/views/authentification/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/views/error/error.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/views/menu/client.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/views/menu/dashboard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/views/menu/project.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/views/menu/team.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/resources/static/views/menu/workspace.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/css/bootstrap/bootstrap-grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/css/bootstrap/bootstrap-grid.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/css/bootstrap/bootstrap-grid.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/css/bootstrap/bootstrap-grid.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/css/bootstrap/bootstrap-reboot.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/css/bootstrap/bootstrap-reboot.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/css/bootstrap/bootstrap-reboot.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/css/bootstrap/bootstrap-reboot.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/css/bootstrap/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/css/bootstrap/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/css/bootstrap/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/css/bootstrap/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/css/sb-admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/css/sb-admin.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/css/sidebar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/img/logo_full.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/img/logo_toggl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/js/angular/angular-route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/js/angular/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/js/bootstrap/bootstrap.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/js/bootstrap/bootstrap.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/js/bootstrap/bootstrap.bundle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/js/bootstrap/bootstrap.bundle.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/js/bootstrap/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/js/bootstrap/bootstrap.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/js/bootstrap/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/js/bootstrap/bootstrap.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/js/jquery/jquery-3.2.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/js/sb-admin-charts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/js/sb-admin-charts.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/js/sb-admin-datatables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/js/sb-admin-datatables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/js/sb-admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/js/sb-admin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/scss/_cards.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/scss/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/scss/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/scss/_login.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/scss/_utilities.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/scss/navbar/_navbar_colors.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/scss/navbar/_navbar_fixed.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/scss/navbar/_navbar_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/scss/navbar/_navbar_static.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/scss/navbar/_navbar_toggle.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/scss/sb-admin.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/bootstrap/css/bootstrap-grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/bootstrap/css/bootstrap-grid.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/bootstrap/css/bootstrap-reboot.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/bootstrap/css/bootstrap-reboot.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/bootstrap/js/bootstrap.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/bootstrap/js/bootstrap.bundle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/bootstrap/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/chart.js/Chart.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/chart.js/Chart.bundle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/chart.js/Chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/chart.js/Chart.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/datatables/dataTables.bootstrap4.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/datatables/dataTables.bootstrap4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/datatables/jquery.dataTables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/less/animated.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/less/screen-reader.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/scss/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/scss/_screen-reader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/font-awesome/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/jquery-easing/jquery.easing.compatibility.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/jquery-easing/jquery.easing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/jquery-easing/jquery.easing.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/vendor/jquery/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/views/authentification/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/views/error/error.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/views/menu/client.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/views/menu/dashboard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/views/menu/project.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/views/menu/team.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/static/views/menu/workspace.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/src/main/resources/static/views/error/error.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/static/js/angular/angular-route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/static/views/error/error.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/web-0.0.1-SNAPSHOT.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/web-0.0.1-SNAPSHOT.war.original" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT.war.original" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/angular/angular-route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/angular/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/views/home/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/views/home/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/classmate-1.3.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-validator-5.3.5.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.8.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.8.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-over-slf4j-1.7.25.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.1.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/logback-core-1.1.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/postgresql-9.4.1212.jre7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/snakeyaml-1.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-1.5.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-1.5.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-devtools-1.5.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-1.5.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-1.5.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-1.5.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-1.5.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-annotations-api-8.5.23.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-8.5.23.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-8.5.23.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-8.5.23.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT.war.original" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/angular/angular-route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/angular/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/views/home/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/views/home/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/classmate-1.3.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-validator-5.3.5.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.8.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.8.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-over-slf4j-1.7.25.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.1.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/logback-core-1.1.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/postgresql-9.4.1212.jre7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/snakeyaml-1.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-1.5.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-1.5.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-devtools-1.5.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-1.5.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-1.5.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-1.5.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-1.5.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-annotations-api-8.5.23.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-8.5.23.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-8.5.23.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-8.5.23.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/angular/angular-timer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/humanize-duration.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/moment.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/views/menu/dashboard.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/static/views/menu/dashboard.html" afterPath="$PROJECT_DIR$/src/main/resources/static/views/menu/timer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Toggl-Web.iml" afterPath="$PROJECT_DIR$/Toggl-Web.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/script.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/views/menu/client.html" afterPath="$PROJECT_DIR$/src/main/resources/static/views/menu/client.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/views/menu/dashboard.html" afterPath="$PROJECT_DIR$/src/main/resources/static/views/menu/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/views/menu/project.html" afterPath="$PROJECT_DIR$/src/main/resources/static/views/menu/project.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/views/menu/dashboard.html" afterPath="$PROJECT_DIR$/target/classes/static/views/menu/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/views/menu/project.html" afterPath="$PROJECT_DIR$/target/classes/static/views/menu/project.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/views/menu/team.html" afterPath="$PROJECT_DIR$/src/main/resources/static/views/menu/team.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/index.html" afterPath="$PROJECT_DIR$/target/classes/static/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/script.js" afterPath="$PROJECT_DIR$/target/classes/static/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/views/menu/team.html" afterPath="$PROJECT_DIR$/target/classes/static/views/menu/team.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -469,41 +27,40 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Toggl-Web" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1649">
-              <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+            <state relative-caret-position="367">
+              <caret line="84" column="22" lean-forward="true" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/menu/project.html">
+      <file leaf-file-name="timer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/menu/timer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+            <state relative-caret-position="714">
+              <caret line="42" column="113" lean-forward="false" selection-start-line="42" selection-start-column="113" selection-end-line="42" selection-end-column="113" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="client.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/menu/client.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="115" lean-forward="false" selection-start-line="30" selection-start-column="115" selection-end-line="30" selection-end-column="115" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <marker date="1512936857515" expanded="false" signature="2177:2189" ph="..." />
               </folding>
             </state>
           </provider>
@@ -516,8 +73,8 @@
       <list>
         <option value="Java class" />
         <option value="Class" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -570,9 +127,15 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/indexController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/views/authentification/login.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/views/menu/dashboard.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/views/menu/project.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/views/menu/client.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/views/menu/project.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/views/menu/team.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/angular/angular-timer.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/humanize-duration.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/angular/angular-timer.min.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/moment.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/views/menu/timer.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/script.js" />
       </list>
     </option>
@@ -602,11 +165,13 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1609" />
-    <option name="width" value="1838" />
+    <option name="x" value="1610" />
+    <option name="width" value="1837" />
     <option name="height" value="1397" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages ProjectPane="false" />
@@ -622,10 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -682,6 +244,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="angular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Toggl-Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Toggl-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -698,6 +270,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -940,12 +515,14 @@
       <workItem from="1509625773787" duration="1436000" />
       <workItem from="1509999442932" duration="73000" />
       <workItem from="1512931933890" duration="1806000" />
-      <workItem from="1512934738792" duration="2692000" />
+      <workItem from="1512934738792" duration="5408000" />
+      <workItem from="1512940807883" duration="134000" />
+      <workItem from="1512941003510" duration="1991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32371000" />
+    <option name="totallyTimeSpent" value="37212000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -957,42 +534,41 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1609" y="0" width="1838" height="1397" extended-state="0" />
-    <editor active="true" />
+    <frame x="1610" y="0" width="1837" height="1397" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291039" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291039" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24970554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291039" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32275972" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19066367" sideWeight="0.4935484" order="0" side_tool="false" content_ui="tabs" x="1320" y="210" width="239" height="626" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32038066" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291039" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291039" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19414744" sideWeight="0.865811" order="0" side_tool="false" content_ui="tabs" x="1320" y="210" width="239" height="626" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14392324" sideWeight="0.5064516" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19414744" sideWeight="0.13418902" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10100118" sideWeight="0.123622045" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33152175" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33148295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1010,6 +586,68 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/humanize-duration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9758">
+          <caret line="574" column="34" lean-forward="false" selection-start-line="574" selection-start-column="34" selection-end-line="574" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/menu/project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/menu/client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="41" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/menu/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/menu/timer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/angular/angular-timer.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="134" lean-forward="true" selection-start-line="8" selection-start-column="134" selection-end-line="8" selection-end-column="134" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/menu/project.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1025,9 +663,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,9 +693,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,9 +723,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1121,9 +753,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,7 +765,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/menu/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/menu/timer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
@@ -1155,9 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1165,9 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1219,13 +843,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/main/contact.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/menu/team.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/menu/workspace.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1247,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/menu/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -1262,18 +872,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/menu/client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="41" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/humanize-duration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9758">
+          <caret line="574" column="34" lean-forward="false" selection-start-line="574" selection-start-column="34" selection-end-line="574" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/moment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="4514" column="5" lean-forward="false" selection-start-line="4514" selection-start-column="5" selection-end-line="4514" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/angular/angular-timer.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="629">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/menu/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/menu/project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="43" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
@@ -1281,23 +941,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/menu/client.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/menu/timer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="115" lean-forward="false" selection-start-line="30" selection-start-column="115" selection-end-line="30" selection-end-column="115" />
+        <state relative-caret-position="714">
+          <caret line="42" column="113" lean-forward="false" selection-start-line="42" selection-start-column="113" selection-end-line="42" selection-end-column="113" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <marker date="1512936857515" expanded="false" signature="2177:2189" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state relative-caret-position="367">
+          <caret line="84" column="22" lean-forward="true" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
           <folding />
         </state>
       </provider>
