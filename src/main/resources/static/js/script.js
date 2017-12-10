@@ -52,6 +52,11 @@ togglApp.config(['$routeProvider',"$locationProvider",
 
 var togglControllers = angular.module('togglControllers', []);
 
+togglControllers.controller('indexController', ['$scope',
+    function($scope){
+    }
+]);
+
 togglControllers.controller('loginController', ['$scope',
     function($scope){
     }
@@ -65,11 +70,57 @@ togglControllers.controller('dashboardController', ['$scope',
 
 togglControllers.controller('projectController', ['$scope',
     function($scope){
+        $scope.projects=[];
+
+        // Add project
+        $scope.addProject = function() {
+            $scope.projects.push({libelle:"", creator:"", status:"", team:""})
+        }
+        // Save projects
+        $scope.saveProjects = function() {
+            return $http({
+                method : 'POST',
+                url : contextPath + '/saveProject',
+                data : data
+            })
+            .then(function successCallback(response) {
+                document.location.href = contextPath;
+            }, function errorCallback(response) {
+                console.log("Erreur lors de la mise à jour des projets");
+            });
+        }
+        // Delete project
+        $scope.deleteProject = function($index){
+            $scope.projects.splice($index, 1);
+        }
     }
 ]);
 
 togglControllers.controller('clientController', ['$scope',
     function($scope){
+        $scope.clients=[];
+
+        // Add Client
+        $scope.addClient = function() {
+            $scope.clients.push({last_name:"", first_name:"", email:""})
+        }
+        // Save clients
+        $scope.saveclients = function() {
+            return $http({
+                method : 'POST',
+                url : contextPath + '/saveClient',
+                data : data
+            })
+                .then(function successCallback(response) {
+                    document.location.href = contextPath;
+                }, function errorCallback(response) {
+                    console.log("Erreur lors de la mise à jour des clients");
+                });
+        }
+        // Delete client
+        $scope.deleteClient = function($index){
+            $scope.clients.splice($index, 1);
+        }
     }
 ]);
 

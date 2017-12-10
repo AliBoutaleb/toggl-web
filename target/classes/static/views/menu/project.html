@@ -1,6 +1,45 @@
-<section class="dashboard">
-    <h2>Page d'accueil</h2>
-    <p>
-        {{ message }}
-    </p>
+<section class="project">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <i class="fa fa-align-justify"></i>  Liste des projets
+            </div>
+            <div class="card-block">
+                <div class="row col-md-12" style="margin-bottom: 15px;">
+                    <div class="col-sm-2" style="margin-left: 0px;">
+                        <button type="button" class="btn btn-success" style="width:175px;" ng-click="addProject()">Ajouter un projet</button>
+                    </div>
+                </div>
+                <div class="row col-md-12">
+                    <div class="col-sm-12">
+                        <form name="formulaire" ng-submit="saveProjects()">
+                            <table class="table table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Libelle</th>
+                                    <th>Créateur</th>
+                                    <th>Statut</th>
+                                    <th>Equipe</th>
+                                    <th>Actions</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr class="animate-repeat" ng-repeat="projet in projects">
+                                    <td><input type="text" class="form-control" name="libelle" ng-model="project.libelle" disabled></td>
+                                    <td><input type="text" class="form-control" name="creator" ng-model="project.creator" disabled></td>
+                                    <td><input type="text" class="form-control" name="status" ng-model="project.status" disabled></td>
+                                    <td><input type="text" class="form-control" name="team" ng-model="project.team" disabled></td>
+                                    <td>
+                                        <button type="button" class="btn btn-outline-danger" ng-click="deleteProject(index)" ><i class="fa fa-eraser"></i></button>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <input type="submit" id="submit" class="btn btn-block btn-success" style="width:175px;" value="Sauvegarder" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
