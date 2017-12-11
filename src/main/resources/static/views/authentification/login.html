@@ -1,25 +1,27 @@
-<div class="content-wrapper" ng-show="!isAuth">
-    <div class="container-fluid">
-        <div class="row" id="pwd-container">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-                <section class="login-form">
-                    <form method="post" ng-submit="submit()" ng-controller="indexController">
-                        <img src="img/logo_full.png" width="80%" class="img-responsive"/>
-                        <input type="email" name="email" ng-model="loginData.email" placeholder="Email" required class="form-control input-lg"/>
-                        <input type="password" class="form-control input-lg" id="password" ng-model="loginData.password" placeholder="Password" required="" />
-                        <div class="pwstrength_viewport_progress"></div>
-                        <button type="submit" id="submit" value="Submit" class="btn btn-lg btn-primary btn-block" >Se connecter</button>
-                        <div>
-                            <a href="#">Créer un compte</a> or <a href="#">Mot de passe oublié</a>
+<section class="login">
+    <div class="content-wrapper" ng-show="!isAuth">
+        <div class="container-fluid">
+            <div class="row" id="pwd-container">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <section class="login-form">
+                        <form method="post" ng-submit="submit()" ng-controller="indexController">
+                            <img src="img/logo_full.png" width="80%" class="img-responsive"/>
+                            <input type="email" name="email" ng-model="loginData.email" placeholder="Email" required class="form-control input-lg"/>
+                            <input type="password" class="form-control input-lg" id="password" ng-model="loginData.password" placeholder="Password" required="" />
+                            <div class="pwstrength_viewport_progress"></div>
+                            <button type="submit" id="submit" value="Submit" class="btn btn-lg btn-primary btn-block" >Se connecter</button>
+                            <div>
+                                <a href="#">Créer un compte</a> or <a href="#">Mot de passe oublié</a>
+                            </div>
+                        </form>
+                        <div class="form-links">
+                            <a href="#">www.esgi-toggl.com</a>
                         </div>
-                    </form>
-                    <div class="form-links">
-                        <a href="#">www.esgi-toggl.com</a>
-                    </div>
-                </section>
+                    </section>
+                </div>
+                <div class="col-md-4"></div>
             </div>
-            <div class="col-md-4"></div>
         </div>
     </div>
-</div>
+</section>

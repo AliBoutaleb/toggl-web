@@ -23,7 +23,7 @@ togglApp.config(['$httpProvider','$routeProvider','$locationProvider',
         $routeProvider
             .when(contextPath, {
                 templateUrl: 'views/authentification/login.html',
-                controller: 'indexController'
+                controller: 'loginController'
             })
             .when(contextPath+'index', {
                 template: 'index.html',
@@ -59,16 +59,19 @@ var togglControllers = angular.module('togglControllers', []);
 
 togglControllers.controller('indexController', ['$scope', '$http',
     function($scope, $http){
+
+    }
+]);
+
+togglControllers.controller('loginController', ['$scope', '$http',
+    function($scope, $http){
         $scope.isAuth=false;
         $scope.loginData = {};
-        $scope.contextPath= "toggl"
         $scope.token;
 
         // Login
         $scope.submit = function() {
-            $scope.isAuth=true;
-            console.log($scope.loginData.password)
-
+            $scope.isAuth = true;
             return $http({
                 method : 'POST',
                 url : 'http://localhost:8081/auth/login',
@@ -76,18 +79,11 @@ togglControllers.controller('indexController', ['$scope', '$http',
             })
                 .then(function successCallback(response) {
                     $scope.token = response.data;
-                    //document.location.href = $scope.contextPath;
+                    //document.location.href = 'index';
                 }, function errorCallback(response) {
                     console.log("Erreur lors de la mise à jour des tâches");
                 });
-
         }
-    }
-]);
-
-togglControllers.controller('loginController', ['$scope',
-    function($scope){
-
     }
 ]);
 
@@ -135,10 +131,40 @@ togglControllers.controller('taskController', ['$scope',
     }
 ]);
 
-togglControllers.controller('projectController', ['$scope',
-    function($scope){
-        $scope.projects=[];
+togglControllers.controller('projectController', ['$scope', '$http',
+    function($scope, $http){
+        $scope.initProject = function() {
+            $scope.projects = [];
+            $scope.users = [];
+            $scope.listProjects();
+            $scope.listUsers();
+        }
 
+        // List projects
+        $scope.listProjects = function() {
+            return $http({
+                method : 'GET',
+                url : 'http://localhost:8081/projects',
+            })
+            .then(function successCallback(response) {
+                $scope.projects = response.data;
+            }, function errorCallback(response) {
+                console.log("Erreur lors de la récupération des projets");
+            });
+        }
+        // List users
+        $scope.listUsers = function() {
+            return $http({
+                method : 'GET',
+                url : 'http://localhost:8081/users',
+            })
+                .then(function successCallback(response) {
+                    $scope.users = response.data;
+                    console.log($scope.users);
+                }, function errorCallback(response) {
+                    console.log("Erreur lors de la récupération des projets");
+                });
+        }
         // Add project
         $scope.addProject = function() {
             $scope.projects.push({libelle:"", creator:"", status:"", team:""})
