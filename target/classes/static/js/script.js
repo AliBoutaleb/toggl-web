@@ -2,8 +2,15 @@
 
 var togglApp = angular.module('togglApp', ['ngRoute','togglControllers','timer']);
 
-togglApp.config(['$routeProvider',"$locationProvider",
-    function($routeProvider,$locationProvider) {
+togglApp.config(['$httpProvider','$routeProvider','$locationProvider',
+    function($httpProvider, $routeProvider,$locationProvider) {
+
+        $httpProvider.defaults.headers.common['Cache-Control'] = 'no-cache';
+        $httpProvider.defaults.cache = false;
+
+        if (!$httpProvider.defaults.headers.get) {
+            $httpProvider.defaults.headers.get = {};
+        }
 
         $locationProvider.html5Mode({
             enabled: true,
@@ -15,18 +22,16 @@ togglApp.config(['$routeProvider',"$locationProvider",
 
         $routeProvider
             .when(contextPath, {
+                templateUrl: 'views/authentification/login.html',
+                controller: 'indexController'
+            })
+            .when(contextPath+'index', {
                 template: 'index.html',
                 controller: 'indexController'
             })
-            //---------------- Authentification
-            .when(contextPath+'login', {
-                templateUrl: 'views/authentification/login.html',
-                controller: 'loginController'
-            })
-            //---------------- Menu
-            .when(contextPath+'timer', {
-                templateUrl: 'views/menu/timer.html',
-                controller: 'timerController'
+            .when(contextPath+'task', {
+                templateUrl: 'views/menu/task.html',
+                controller: 'taskController'
             })
             .when(contextPath+'project', {
                 templateUrl: 'views/menu/project.html',
@@ -52,17 +57,41 @@ togglApp.config(['$routeProvider',"$locationProvider",
 
 var togglControllers = angular.module('togglControllers', []);
 
-togglControllers.controller('indexController', ['$scope',
-    function($scope){
+togglControllers.controller('indexController', ['$scope', '$http',
+    function($scope, $http){
+        $scope.isAuth=false;
+        $scope.loginData = {};
+        $scope.contextPath= "toggl"
+        $scope.token;
+
+        // Login
+        $scope.submit = function() {
+            $scope.isAuth=true;
+            console.log($scope.loginData.password)
+
+            return $http({
+                method : 'POST',
+                url : 'http://localhost:8081/auth/login',
+                data : $scope.loginData
+            })
+                .then(function successCallback(response) {
+                    $scope.token = response.data;
+                    //document.location.href = $scope.contextPath;
+                }, function errorCallback(response) {
+                    console.log("Erreur lors de la mise à jour des tâches");
+                });
+
+        }
     }
 ]);
 
 togglControllers.controller('loginController', ['$scope',
     function($scope){
+
     }
 ]);
 
-togglControllers.controller('timerController', ['$scope',
+togglControllers.controller('taskController', ['$scope',
     function($scope){
         $scope.tasks=[];
         $scope.timerRunning = true;
@@ -93,11 +122,11 @@ togglControllers.controller('timerController', ['$scope',
                 url : contextPath + '/saveTasks',
                 data : data
             })
-                .then(function successCallback(response) {
-                    document.location.href = contextPath;
-                }, function errorCallback(response) {
-                    console.log("Erreur lors de la mise à jour des tâches");
-                });
+            .then(function successCallback(response) {
+                document.location.href = contextPath;
+            }, function errorCallback(response) {
+                console.log("Erreur lors de la mise à jour des tâches");
+            });
         }
         // Delete timer
         $scope.deleteTask = function($index){
