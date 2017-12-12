@@ -20,22 +20,20 @@
                                         <th>Libelle</th>
                                         <th>Créateur</th>
                                         <th>Statut</th>
-                                        <th>Equipe</th>
                                         <th>Actions</th>
                                     </tr>
                                     </thead>
                                     <tbody>
-                                    <tr class="animate-repeat" ng-repeat="project in projects">
-                                        <td><input type="text" class="form-control" name="libelle" ng-model="project.title" ></td>
-                                        <td>
-                                            <select ng-options = "user as user.last_name for user in users track by user.id" ng-model="project.creator"></select>
-                                        </td>
-                                        <td><input type="text" class="form-control" name="status" ng-model="project.status" ></td>
-                                        <td><input type="text" class="form-control" name="team" ng-model="project.team" ></td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-danger" ng-click="deleteProject(index)" ><i class="fa fa-eraser"></i></button>
-                                        </td>
-                                    </tr>
+                                        <tr class="animate-repeat" ng-repeat="project in projects">
+                                            <td><input type="text" class="form-control" name="libelle" ng-model="project.title" ></td>
+                                            <td>
+                                                <select ng-options = "user as user.last_name for user in users track by user.id" ng-model="project.creator"></select>
+                                            </td>
+                                            <td><input type="text" class="form-control" name="status" ng-model="project.status" ></td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-danger" ng-click="deleteProject(index)" ><i class="fa fa-eraser"></i></button>
+                                            </td>
+                                        </tr>
                                     </tbody>
                                 </table>
                                 <input type="submit" id="submit" class="btn btn-block btn-success" style="width:175px;" value="Sauvegarder" />

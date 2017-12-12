@@ -171,6 +171,7 @@ togglControllers.controller('projectController', ['$scope', '$http',
         }
         // Save projects
         $scope.saveProjects = function() {
+            $scope.projects
             return $http({
                 method : 'POST',
                 url : contextPath + '/saveProject',
