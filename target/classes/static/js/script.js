@@ -1,6 +1,6 @@
 'use strict';
 
-var togglApp = angular.module('togglApp', ['ngRoute','togglControllers','timer']);
+var togglApp = angular.module('togglApp', ['ngRoute','timer']);
 
 togglApp.config(['$httpProvider','$routeProvider','$locationProvider',
     function($httpProvider, $routeProvider,$locationProvider) {
@@ -55,39 +55,37 @@ togglApp.config(['$httpProvider','$routeProvider','$locationProvider',
     }
 ]);
 
-var togglControllers = angular.module('togglControllers', []);
-
-togglControllers.controller('indexController', ['$scope', '$http',
-    function($scope, $http){
-
+togglApp.controller('indexController', ['$scope',
+    function($scope){
+        $scope.contextPath="/toggl/";
     }
 ]);
 
-togglControllers.controller('loginController', ['$scope', '$http',
-    function($scope, $http){
-        $scope.isAuth=false;
+togglApp.controller('loginController', ['$scope', '$http', '$rootScope',
+    function($scope, $http, $rootScope){
+        $rootScope.isAuth = false;
         $scope.loginData = {};
         $scope.token;
 
         // Login
         $scope.submit = function() {
-            $scope.isAuth = true;
             return $http({
                 method : 'POST',
                 url : 'http://localhost:8081/auth/login',
                 data : $scope.loginData
             })
-                .then(function successCallback(response) {
-                    $scope.token = response.data;
-                    //document.location.href = 'index';
-                }, function errorCallback(response) {
-                    console.log("Erreur lors de la mise à jour des tâches");
-                });
+            .then(function successCallback(response) {
+                $scope.token = response.data;
+                $rootScope.isAuth = true;
+                //document.location.href = '/index';
+            }, function errorCallback(response) {
+                console.log("Erreur lors de l'authentification");
+            });
         }
     }
 ]);
 
-togglControllers.controller('taskController', ['$scope',
+togglApp.controller('taskController', ['$scope',
     function($scope){
         $scope.tasks=[];
         $scope.timerRunning = true;
@@ -131,27 +129,16 @@ togglControllers.controller('taskController', ['$scope',
     }
 ]);
 
-togglControllers.controller('projectController', ['$scope', '$http',
+togglApp.controller('projectController', ['$scope', '$http',
     function($scope, $http){
         $scope.initProject = function() {
             $scope.projects = [];
             $scope.users = [];
-            $scope.listProjects();
             $scope.listUsers();
+            $scope.listProjects();
+
         }
 
-        // List projects
-        $scope.listProjects = function() {
-            return $http({
-                method : 'GET',
-                url : 'http://localhost:8081/projects',
-            })
-            .then(function successCallback(response) {
-                $scope.projects = response.data;
-            }, function errorCallback(response) {
-                console.log("Erreur lors de la récupération des projets");
-            });
-        }
         // List users
         $scope.listUsers = function() {
             return $http({
@@ -162,6 +149,20 @@ togglControllers.controller('projectController', ['$scope', '$http',
                     $scope.users = response.data;
                     console.log($scope.users);
                 }, function errorCallback(response) {
+                    console.log("Erreur lors de la récupération des utilisateurs");
+                });
+        }
+
+        // List projects
+        $scope.listProjects = function() {
+            return $http({
+                method : 'GET',
+                url : 'http://localhost:8081/projects',
+            })
+                .then(function successCallback(response) {
+                    $scope.projects = response.data;
+                    console.log($scope.projects);
+                }, function errorCallback(response) {
                     console.log("Erreur lors de la récupération des projets");
                 });
         }
@@ -171,14 +172,13 @@ togglControllers.controller('projectController', ['$scope', '$http',
         }
         // Save projects
         $scope.saveProjects = function() {
-            $scope.projects
             return $http({
                 method : 'POST',
                 url : contextPath + '/saveProject',
-                data : data
+                data : $scope.projects
             })
             .then(function successCallback(response) {
-                document.location.href = contextPath;
+                document.location.href = contextPath + 'index';
             }, function errorCallback(response) {
                 console.log("Erreur lors de la mise à jour des projets");
             });
@@ -190,7 +190,7 @@ togglControllers.controller('projectController', ['$scope', '$http',
     }
 ]);
 
-togglControllers.controller('clientController', ['$scope',
+togglApp.controller('clientController', ['$scope',
     function($scope){
         $scope.clients=[];
 
@@ -218,12 +218,12 @@ togglControllers.controller('clientController', ['$scope',
     }
 ]);
 
-togglControllers.controller('teamController', ['$scope',
+togglApp.controller('teamController', ['$scope',
     function($scope){
     }
 ]);
 
-togglControllers.controller('workspaceController', ['$scope',
+togglApp.controller('workspaceController', ['$scope',
     function($scope){
     }
 ]);

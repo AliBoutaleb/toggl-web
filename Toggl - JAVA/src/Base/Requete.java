@@ -28,9 +28,8 @@ public class Requete {
 
     public static void main(String[] args) throws Exception {
         toListUser(sendGetUsers());
-
-
     }
+
     public static String sendGetUsers() throws Exception
     {
         HttpURLConnection co = ConfigRequete("GET");

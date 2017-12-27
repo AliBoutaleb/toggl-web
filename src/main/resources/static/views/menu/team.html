@@ -1,41 +1,48 @@
-<section class="dashboard">
-    <div class="col-lg-12">
-        <div class="card">
-            <div class="card-header">
-                <i class="fa fa-align-justify"></i>  Liste des équipes
-            </div>
-            <div class="card-block">
-                <div class="row col-md-12">
-                    <div class="col-sm-12">
-                        <form name="formulaire">
-                            <table class="table table-bordered">
-                                <thead>
-                                <tr>
-                                    <th>Libelle</th>
-                                    <th>Créateur</th>
-                                    <th>Email</th>
-                                    <th>Actions</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr class="animate-repeat" ng-repeat="team in teams">
-                                    <td><input type="text" class="form-control" name="libelle" ng-model="team.libelle" disabled></td>
-                                    <td><input type="text" class="form-control" name="creator" ng-model="team.creator" disabled></td>
-                                    <td><input type="text" class="form-control" name="email" ng-model="team.email" disabled></td>
-                                    <td>
-                                        <button type="button" class="btn btn-outline-danger" ng-click="deleteTeam(index)" ><i class="fa fa-eraser"></i></button>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </form>
+<section class="team" ng-init=initTeam()>
+    <div class="content-wrapper">
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i>  Liste des équipes
+                </div>
+                <div class="card-block">
+                    <div class="row col-md-12" style="margin-bottom: 15px;">
+                        <div class="col-sm-2" style="margin-top: 10px;">
+                            <button type="button" class="btn btn-success" style="width:175px;" ng-click="addProject()">Ajouter une équipe</button>
+                        </div>
+                    </div>
+                    <div class="row col-md-12">
+                        <div class="col-sm-12">
+                            <form name="formulaire" ng-submit="saveTeams()">
+                                <table class="table table-bordered">
+                                    <thead>
+                                    <tr>
+                                        <th>Libelle</th>
+                                        <th>Créateur</th>
+                                        <th>Statut</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="animate-repeat" ng-repeat="project in projects">
+                                        <td><input type="text" class="form-control" name="libelle" ng-model="project.title" ></td>
+                                        <td>
+                                            <select ng-options = "user as user.last_name for user in users track by user._id" ng-model="project.creator"></select>
+                                        </td>
+                                        <td><input type="text" class="form-control" name="status" ng-model="project.status" ></td>
+                                        <td>
+                                            <button type="button" class="btn btn-outline-danger" ng-click="deleteProject(index)" ><i class="fa fa-eraser"></i></button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <div style="width:175px; margin-bottom: 10px ">
+                                    <input type="submit" id="submit" class="btn btn-block btn-success" value="Sauvegarder" />
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row col-md-12" style="margin-bottom: 15px;">
-            <div class="col-sm-2" style="margin-top: 5px;">
-                <button type="button" class="btn btn-success" style="width:175px;" ng-click="createTeam()">Créer une équipe</button>
             </div>
         </div>
     </div>
