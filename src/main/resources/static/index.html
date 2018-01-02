@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" ng-app="togglApp">
+<html lang="fr" ng-app="togglApp" xmlns:th="http://www.springframework.org/schema/mvc">
     <head>
         <meta charset="utf-8" />
         <title>Route App</title>
@@ -18,7 +18,6 @@
         <script src="js/angular/angular.js"></script>
         <script src="js/angular/angular-route.js"></script>
         <script src="js/angular/angular-timer.min.js"></script>
-        <script src="js/script.js"></script>
         <!-- Bootstrap core JavaScript-->
         <script src="vendor/jquery/jquery.min.js"></script>
         <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -35,6 +34,20 @@
         <!--<script src="js/sb-admin-charts.min.js"></script>-->
         <script src="js/humanize-duration.js"></script>
         <script src="js/moment.js"></script>
+
+        <script th:inline="javascript">
+            var contextPath="/toggl/";
+        </script>
+
+        <!--<script th:inline="javascript">-->
+            <!--var contextPath = /*[[@{/}]]*/;-->
+        <!--</script>-->
+
+        <!--Controllers-->
+        <script src="modules/common/controller/script.js"></script>
+        <script src="modules/login/controller/loginController.js"></script>
+        <script src="modules/task/controller/taskController.js"></script>
+        <script src="modules/project/controller/projectController.js"></script>
 
     </head>
     <body class="fixed-nav sticky-footer bg-dark" id="page-top">

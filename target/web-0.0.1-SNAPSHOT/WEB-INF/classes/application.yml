@@ -9,18 +9,6 @@ server:
 ---
 spring:
   profiles: local
-  jpa: 
-    database: POSTGRESQL
-    hibernate: 
-      ddl-auto: none
-    properties: 
-      hibernate: 
-        dialect: org.hibernate.dialect.PostgreSQL9Dialect
-        hibernate.use-new-id-generator-mappings: true
-    show-sql: false
-#  datasource:
-#    platform: postgres
-#    url: jdbc:postgresql://localhost:5432/insight
-#    username: postgres
-#    password: postgres
-#    driverClassName: org.postgresql.Driver
+  data:
+      mongodb:
+        uri: mongodb://localhost:27017/toggl

@@ -8405,7 +8405,7 @@ a.fc-more:hover {
 
 .fc-view,
 .fc-view > table {
-  /* so dragged elements can be above the view's main element */
+  /* so dragged elements can be above the view's menu element */
   position: relative;
   z-index: 1; }
 
