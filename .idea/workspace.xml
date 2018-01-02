@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad9e38d6-f4bb-4d73-9a7e-007a1858fd68" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/application/Application.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/controller/IndexController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/controller/SessionController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/controller/TaskController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/model/Session.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/model/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/application/Application.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/controller/indexController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/controller/taskController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/img/logo_full.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/img/logo_toggl.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/IndexController.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/SessionController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/TaskController.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/Session.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/modules/common/controller/script.js" />
@@ -12,6 +30,124 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/modules/task/controller/taskController.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/modules/task/views/task.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/modules/team/controller/teamController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/static/modules/common/controller/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/static/modules/login/controller/loginController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/static/modules/project/controller/projectController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/static/modules/task/controller/taskController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/static/modules/task/views/task.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/static/modules/team/controller/teamController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/css/bootstrap/bootstrap-grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/css/bootstrap/bootstrap-grid.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/css/bootstrap/bootstrap-grid.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/css/bootstrap/bootstrap-grid.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/css/bootstrap/bootstrap-reboot.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/css/bootstrap/bootstrap-reboot.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/css/bootstrap/bootstrap-reboot.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/css/bootstrap/bootstrap-reboot.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/css/bootstrap/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/css/bootstrap/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/css/bootstrap/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/css/bootstrap/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/css/sb-admin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/css/sb-admin.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/css/sidebar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/angular/angular-timer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/angular/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/bootstrap/bootstrap.bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/bootstrap/bootstrap.bundle.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/bootstrap/bootstrap.bundle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/bootstrap/bootstrap.bundle.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/bootstrap/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/bootstrap/bootstrap.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/bootstrap/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/bootstrap/bootstrap.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/humanize-duration.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/jquery/jquery-3.2.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/sb-admin-charts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/sb-admin-charts.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/sb-admin-datatables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/sb-admin-datatables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/sb-admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/sb-admin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/modules/client/views/client.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/modules/common/controller/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/modules/error/views/error.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/modules/login/controller/loginController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/modules/login/views/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/modules/project/controller/projectController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/modules/project/views/project.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/modules/task/controller/taskController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/modules/task/views/task.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/modules/task/views/task2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/modules/team/controller/teamController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/modules/team/views/team.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/scss/_cards.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/scss/_footer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/scss/_global.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/scss/_login.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/scss/_utilities.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/scss/navbar/_navbar_colors.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/scss/navbar/_navbar_fixed.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/scss/navbar/_navbar_global.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/scss/navbar/_navbar_static.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/scss/navbar/_navbar_toggle.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/scss/sb-admin.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/bootstrap/css/bootstrap-grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/bootstrap/css/bootstrap-grid.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/bootstrap/css/bootstrap-reboot.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/bootstrap/css/bootstrap-reboot.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/bootstrap/js/bootstrap.bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/chart.js/Chart.bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/chart.js/Chart.bundle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/chart.js/Chart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/chart.js/Chart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/datatables/dataTables.bootstrap4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/datatables/dataTables.bootstrap4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/datatables/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/less/screen-reader.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/scss/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/scss/_screen-reader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/jquery-easing/jquery.easing.compatibility.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/jquery-easing/jquery.easing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/jquery-easing/jquery.easing.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/vendor/jquery/jquery.min.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
@@ -95,12 +231,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/java/Application.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/main/java/controller/indexController.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/views/authentification/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/views/error/error.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/views/menu/client.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/views/menu/project.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/views/menu/task.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/views/menu/team.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/views/menu/workspace.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/src/main/java/Application.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/src/main/java/controller/homeController.class" afterPath="" />
@@ -110,13 +240,19 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/classes/static/views/home/home.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT/WEB-INF/lib/postgresql-9.4.1212.jre7.jar" afterPath="" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Application.java" afterPath="$PROJECT_DIR$/src/main/java/application/Application.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/controller/indexController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/IndexController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/controller/indexController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/TaskController.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/static/views/authentification/login.html" afterPath="$PROJECT_DIR$/src/main/resources/static/modules/login/views/login.html" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/static/views/error/error.html" afterPath="$PROJECT_DIR$/src/main/resources/static/modules/error/views/error.html" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/static/views/menu/client.html" afterPath="$PROJECT_DIR$/src/main/resources/static/modules/client/views/client.html" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/static/views/menu/project.html" afterPath="$PROJECT_DIR$/src/main/resources/static/modules/project/views/project.html" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/static/views/menu/task.html" afterPath="$PROJECT_DIR$/src/main/resources/static/modules/task/views/task2.html" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/static/views/menu/team.html" afterPath="$PROJECT_DIR$/src/main/resources/static/modules/team/views/team.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/static/views/authentification/login.html" afterPath="$PROJECT_DIR$/target/classes/static/modules/login/views/login.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/static/views/error/error.html" afterPath="$PROJECT_DIR$/target/classes/static/modules/error/views/error.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/static/views/menu/client.html" afterPath="$PROJECT_DIR$/target/classes/static/modules/client/views/client.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/static/views/menu/project.html" afterPath="$PROJECT_DIR$/target/classes/static/modules/project/views/project.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/static/views/menu/task.html" afterPath="$PROJECT_DIR$/target/classes/static/modules/task/views/task2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/classes/static/views/menu/team.html" afterPath="$PROJECT_DIR$/target/classes/static/modules/team/views/team.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT.war.original" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT.war.original" />
@@ -312,7 +448,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1744" />
     <option name="y" value="300" />
     <option name="width" value="1546" />
@@ -719,12 +855,12 @@
       <workItem from="1514378181893" duration="10859000" />
       <workItem from="1514884644023" duration="16000" />
       <workItem from="1514884706146" duration="1239000" />
-      <workItem from="1514886005901" duration="11517000" />
+      <workItem from="1514886005901" duration="12106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80166000" />
+    <option name="totallyTimeSpent" value="80755000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -736,7 +872,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="76" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="76" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
