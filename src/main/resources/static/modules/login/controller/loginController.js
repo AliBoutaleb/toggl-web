@@ -8,16 +8,16 @@ togglApp.controller('loginController', ['$scope', '$http', '$rootScope',
         $scope.submit = function() {
             return $http({
                 method : 'POST',
-                url : 'http://localhost:8081/auth/login',
+                url : 'login',
                 data : $scope.loginData
             })
-                .then(function successCallback(response) {
-                    $scope.token = response.data;
-                    $rootScope.isAuth = true;
-                    //document.location.href = '/index';
-                }, function errorCallback(response) {
-                    console.log("Erreur lors de l'authentification");
-                });
+            .then(function successCallback(response) {
+                $scope.token = response.data;
+                $rootScope.isAuth = true;
+                //document.location.href = '/index';
+            }, function errorCallback(response) {
+                console.log("Erreur lors de l'authentification");
+            });
         }
     }
 ]);

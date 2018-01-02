@@ -6,6 +6,7 @@ togglApp.config(['$httpProvider','$routeProvider','$locationProvider',
     function($httpProvider, $routeProvider,$locationProvider) {
 
         $httpProvider.defaults.headers.common['Cache-Control'] = 'no-cache';
+        $httpProvider.defaults.headers.common = { "Content-Type": "application/json"};
         $httpProvider.defaults.cache = false;
 
         if (!$httpProvider.defaults.headers.get) {

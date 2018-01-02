@@ -1,11 +1,14 @@
 package model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
 public class User {
 
-    private String first_name;
+    public String first_name;
     private String last_name;
     private String token;
 
