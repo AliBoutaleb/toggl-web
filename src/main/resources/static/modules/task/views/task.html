@@ -1,4 +1,4 @@
-<section class="timer">
+<section class="timer" ng-init="init()">
     <div class="content-wrapper">
         <div class="container-fluid">
             <div class="row col-md-12" style="margin-bottom: 15px;">
@@ -14,38 +14,22 @@
                         <table class="table table-bordered">
                             <thead>
                             <tr>
-                                <th>Libelle</th>
-                                <th>Projet</th>
-                                <th>Equipe</th>
-                                <th>Réalisateur</th>
-                                <th>Temps</th>
-                                <th>Actions</th>
+                                <th>Title</th>
+                                <th>Owner</th>
+                                <th>Due date</th>
+                                <th>Timer</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr class="animate-repeat" ng-repeat="task in tasks">
-                                <td><input type="text" class="form-control" name="libelle"
-                                           ng-model="task.libelle" disabled></td>
-                                <td><input type="text" class="form-control" name="project"
-                                           ng-model="task.project" disabled></td>
-                                <td><input type="text" class="form-control" name="team" ng-model="task.team"
+                                <td><input type="text" class="form-control" name="title"
+                                           ng-model="task.title" disabled></td>
+                                <td><input type="text" class="form-control" name="owner"
+                                           ng-model="task.owner" disabled></td>
+                                <td><input type="text" class="form-control" name="dueDate"
+                                           ng-model="task.dueDate" disabled></td>
+                                <td><input type="text" class="form-control" name="timer" ng-model="task.time"
                                            disabled></td>
-                                <td><input type="text" class="form-control" name="performer"
-                                           ng-model="task.performer" disabled></td>
-                                <td>
-                                    <timer interval="1000">{{hours}} hour{{hoursS}}, {{minutes}}
-                                        minute{{minutesS}}, {{seconds}} second{{secondsS}}.
-                                    </timer>
-                                </td>
-                                <td>
-                                    <button ng-click="startTimer()" ng-disabled="timerRunning">Start Timer
-                                    </button>
-                                    <button ng-click="stopTimer()" ng-disabled="!timerRunning">Stop Timer
-                                    </button>
-                                    <button type="button" class="btn btn-outline-danger"
-                                            ng-click="deleteTask(index)"><i class="fa fa-eraser"></i>
-                                    </button>
-                                </td>
                             </tr>
                             </tbody>
                         </table>
@@ -56,20 +40,6 @@
                     </form>
                 </div>
             </div>
-
-            <!--<div class="card">-->
-                <!--<div class="card-header" style="background-color: #33cc33">-->
-                    <!--Tâche numéro 1-->
-                <!--</div>-->
-                <!--<div class="card-block" style="background-color: #70db70">-->
-                    <!--Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut-->
-                    <!--laoreet-->
-                    <!--dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation-->
-                    <!--ullamcorper-->
-                    <!--suscipit lobortis nisl ut aliquip ex-->
-                    <!--ea commodo consequat.-->
-                <!--</div>-->
-            <!--</div>-->
         </div>
     </div>
 </section>

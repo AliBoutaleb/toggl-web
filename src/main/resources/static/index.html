@@ -39,18 +39,19 @@
             var contextPath="/toggl/";
         </script>
 
-        <!-- Constants -->
-        <script src="modules/common/constants.js"></script>
+        <!-- Main controller -->
+        <script src="modules/common/controller/togglController.js"></script>
 
         <!-- Controllers -->
-        <script src="modules/common/controller/togglController.js"></script>
         <script src="modules/index/controller/indexController.js"></script>
         <script src="modules/task/controller/taskController.js"></script>
-        <script src="modules/project/controller/projectController.js"></script>
 
         <!-- Services -->
         <script src="modules/index/services/indexService.js"></script>
+        <script src="modules/task/services/taskService.js"></script>
 
+        <!-- Constants -->
+        <script src="modules/common/constants.js"></script>
     </head>
     <body ng-app="toggl" ng-controller="indexController" class="fixed-nav sticky-footer bg-dark" id="page-top">
         <!-- Navigation-->

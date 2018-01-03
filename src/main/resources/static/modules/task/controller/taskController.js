@@ -1,43 +1,24 @@
-toggl.controller('taskController', ['$scope',
-    function($scope){
-        $scope.tasks=[];
-        $scope.timerRunning = true;
+toggl.controller('taskController', function($scope, $rootScope, TaskService) {
 
-        $scope.startTimer = function (){
-            $scope.$broadcast('timer-start');
-            $scope.timerRunning = true;
-        };
+    $scope.init = function () {
+        $scope.tasks = [];
+        $scope.listTasks();
+    };
 
-        $scope.stopTimer = function (){
-            $scope.$broadcast('timer-stop');
-            $scope.timerRunning = false;
-        };
-
-        $scope.$on('timer-stopped', function (event, data){
-            console.log('Timer Stopped - data = ', data);
+    // List tasks
+    $scope.listTasks = function () {
+        TaskService.listTasks($rootScope.token)
+        .then(function successCallback(response) {
+            console.log(response.data);
+            $scope.tasks = response.data;
+        }, function errorCallback(response) {
+            console.log("Erreur lors de la récupération des tâches");
         });
+    };
 
-        // Add timer
-        $scope.addTask = function() {
-            $scope.tasks.push({libelle:"", project:"", team:"", performer:""})
-            timer.setSeconds(30);
-        }
-        // Save timers
-        $scope.Tasks = function() {
-            return $http({
-                method : 'POST',
-                url : contextPath + '/saveTasks',
-                data : data
-            })
-                .then(function successCallback(response) {
-                    document.location.href = contextPath;
-                }, function errorCallback(response) {
-                    console.log("Erreur lors de la mise à jour des tâches");
-                });
-        }
-        // Delete timer
-        $scope.deleteTask = function($index){
-            $scope.tasks.splice($index, 1);
-        }
+    // Add a task
+    $scope.addTask = function (){
+        $scope.tasks.push({'title':'', 'owner':'', 'dueDate':''});
     }
-]);
+
+});
