@@ -1,43 +1,36 @@
 <section class="timer" ng-init="init()">
     <div class="content-wrapper">
         <div class="container-fluid">
-            <div class="row col-md-12" style="margin-bottom: 15px;">
-                <div class="col-sm-2" style="margin-top: 10px;">
-                    <button type="button" class="btn btn-success" style="width:175px;" ng-click="addTask()">
-                        Ajouter une tâche
-                    </button>
-                </div>
-            </div>
             <div class="row col-md-12">
                 <div class="col-sm-12">
-                    <form name="formulaire" ng-submit="saveTasks()">
-                        <table class="table table-bordered">
-                            <thead>
-                            <tr>
-                                <th>Title</th>
-                                <th>Owner</th>
-                                <th>Due date</th>
-                                <th>Timer</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr class="animate-repeat" ng-repeat="task in tasks">
-                                <td><input type="text" class="form-control" name="title"
-                                           ng-model="task.title" disabled></td>
-                                <td><input type="text" class="form-control" name="owner"
-                                           ng-model="task.owner" disabled></td>
-                                <td><input type="text" class="form-control" name="dueDate"
-                                           ng-model="task.dueDate" disabled></td>
-                                <td><input type="text" class="form-control" name="timer" ng-model="task.time"
-                                           disabled></td>
-                            </tr>
-                            </tbody>
-                        </table>
-                        <div style="width:175px; margin-bottom: 10px ">
-                            <input type="submit" id="submit" class="btn btn-block btn-success"
-                                   value="Sauvegarder"/>
-                        </div>
-                    </form>
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Owner</th>
+                            <th>Due date</th>
+                            <th>Timer</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="animate-repeat" ng-repeat="task in tasks">
+                            <td><input type="text" class="form-control" name="title"
+                                       ng-model="task.title" disabled></td>
+                            <td><input type="text" class="form-control" name="owner"
+                                       ng-model="task.owner" disabled></td>
+                            <td><input type="text" class="form-control" name="dueDate"
+                                       ng-model="task.dueDate" disabled></td>
+                            <td><input type="text" class="form-control" name="timer" ng-model="task.time"
+                                       disabled></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div style="width:175px; margin-bottom: 10px ">
+                        <input type="button" id="ajouter" ng-click="addTask()" class="btn btn-block btn-warning"
+                               value="Ajouter"/>
+                        <input type="submit" id="submit" class="btn btn-block btn-success"
+                               value="Sauvegarder"/>
+                    </div>
                 </div>
             </div>
         </div>
