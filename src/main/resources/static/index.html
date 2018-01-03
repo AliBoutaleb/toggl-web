@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" ng-app="togglApp" xmlns:th="http://www.springframework.org/schema/mvc">
+<html lang="fr" xmlns:th="http://www.springframework.org/schema/mvc">
     <head>
         <meta charset="utf-8" />
         <title>Route App</title>
@@ -39,18 +39,20 @@
             var contextPath="/toggl/";
         </script>
 
-        <!--<script th:inline="javascript">-->
-            <!--var contextPath = /*[[@{/}]]*/;-->
-        <!--</script>-->
+        <!-- Constants -->
+        <script src="modules/common/constants.js"></script>
 
-        <!--Controllers-->
-        <script src="modules/common/controller/script.js"></script>
-        <script src="modules/login/controller/loginController.js"></script>
+        <!-- Controllers -->
+        <script src="modules/common/controller/togglController.js"></script>
+        <script src="modules/index/controller/indexController.js"></script>
         <script src="modules/task/controller/taskController.js"></script>
         <script src="modules/project/controller/projectController.js"></script>
 
+        <!-- Services -->
+        <script src="modules/index/services/indexService.js"></script>
+
     </head>
-    <body class="fixed-nav sticky-footer bg-dark" id="page-top">
+    <body ng-app="toggl" ng-controller="indexController" class="fixed-nav sticky-footer bg-dark" id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav" ng-show="isAuth">
             <div>

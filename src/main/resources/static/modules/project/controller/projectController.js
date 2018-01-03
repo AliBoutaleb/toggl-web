@@ -1,4 +1,4 @@
-togglApp.controller('projectController', ['$scope', '$http',
+toggl.controller('projectController', ['$scope', '$http',
     function($scope, $http){
         $scope.initProject = function() {
             $scope.projects = [];

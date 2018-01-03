@@ -1,8 +1,8 @@
 'use strict';
 
-var togglApp = angular.module('togglApp', ['ngRoute','timer']);
+var toggl = angular.module('toggl', ['ngRoute','timer']);
 
-togglApp.config(['$httpProvider','$routeProvider','$locationProvider',
+toggl.config(['$httpProvider','$routeProvider','$locationProvider',
     function($httpProvider, $routeProvider,$locationProvider) {
 
         $httpProvider.defaults.headers.common['Cache-Control'] = 'no-cache';
@@ -20,8 +20,8 @@ togglApp.config(['$httpProvider','$routeProvider','$locationProvider',
 
         $routeProvider
             .when(contextPath, {
-                templateUrl: 'modules/login/views/login.html',
-                controller: 'loginController'
+                templateUrl: 'modules/index/views/login.html',
+                controller: 'indexController'
             })
             .when(contextPath+'task', {
                 templateUrl: 'modules/task/views/task.html',
@@ -49,19 +49,13 @@ togglApp.config(['$httpProvider','$routeProvider','$locationProvider',
     }
 ]);
 
-togglApp.controller('indexController', ['$scope',
+toggl.controller('indexController', ['$scope',
     function($scope){
         $scope.contextPath="/toggl/";
     }
 ]);
 
-
-
-
-
-
-
-togglApp.controller('clientController', ['$scope',
+toggl.controller('clientController', ['$scope',
     function($scope){
         $scope.clients=[];
 
@@ -91,7 +85,7 @@ togglApp.controller('clientController', ['$scope',
 
 
 
-togglApp.controller('workspaceController', ['$scope',
+toggl.controller('workspaceController', ['$scope',
     function($scope){
     }
 ]);

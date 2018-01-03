@@ -1,23 +1,19 @@
-togglApp.controller('loginController', ['$scope', '$http', '$rootScope',
-    function($scope, $http, $rootScope){
+toggl.controller('indexController',
+    function($scope, $http, $rootScope, IndexService){
         $rootScope.isAuth = false;
-        $scope.loginData = {};
+        $scope.data = {};
         $scope.token;
 
         // Login
         $scope.submit = function() {
-            return $http({
-                method : 'POST',
-                url : 'login',
-                data : $scope.loginData
-            })
+            console.log($scope.data);
+            IndexService.authentification($scope.data)
             .then(function successCallback(response) {
                 $scope.token = response.data;
                 $rootScope.isAuth = true;
-                //document.location.href = '/index';
             }, function errorCallback(response) {
                 console.log("Erreur lors de l'authentification");
             });
         }
     }
-]);
+);

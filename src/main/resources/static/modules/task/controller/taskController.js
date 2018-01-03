@@ -1,4 +1,4 @@
-togglApp.controller('taskController', ['$scope',
+toggl.controller('taskController', ['$scope',
     function($scope){
         $scope.tasks=[];
         $scope.timerRunning = true;
