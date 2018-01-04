@@ -1,7 +1,26 @@
 <section class="timer" ng-init="init()">
     <div class="content-wrapper">
         <div class="container-fluid">
-            <div class="row col-md-12">
+            <h5>Task on progress :</h5>
+            <div class="row col-md-12" style="margin-top: 25px">
+                <div class="col-sm-3">
+                    <h5>Task : {{selectedTask.title}}</h5>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Timer :
+                        <timer start-time="startTime" interval="1000" auto-start="false">{{hours}}:{{minutes}}:{{seconds}}</timer>
+                    </h5>
+                </div>
+                <div class="col-sm-2">
+                    <button type="button" class="btn btn-success" ng-disabled="timerRunning" ng-click="startTimer()"><i
+                            class="fa fa-play"></i></button>
+                    <button type="button" class="btn btn-warning" ng-disabled="timerRunning" ng-click="resumeTimer()"><i
+                            class="fa fa-play"></i></button>
+                    <button type="button" class="btn btn-danger" ng-disabled="!timerRunning" ng-click="stopTimer()"><i
+                            class="fa fa-stop"></i></button>
+                </div>
+            </div>
+            <div class="row col-md-12" style="margin-top: 25px">
                 <div class="col-sm-12">
                     <table class="table table-bordered">
                         <thead>
@@ -10,6 +29,7 @@
                             <th>Owner</th>
                             <th>Due date</th>
                             <th>Timer</th>
+                            <th>Actions</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -20,17 +40,19 @@
                                        ng-model="task.owner" disabled></td>
                             <td><input type="text" class="form-control" name="dueDate"
                                        ng-model="task.dueDate" disabled></td>
-                            <td><input type="text" class="form-control" name="timer" ng-model="task.time"
-                                       disabled></td>
+                            <td><input type="text" class="form-control" name="timer"
+                                       ng-model="task.timer" disabled>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-primary" ng-click="selectTask($index)"><i
+                                        class="fa fa-angle-up"></i></button>
+                                <button type="button" class="btn btn-danger" ng-click=""><i
+                                        class="fa fa-archive"></i></button>
+                            </td>
                         </tr>
                         </tbody>
                     </table>
-                    <div style="width:175px; margin-bottom: 10px ">
-                        <input type="button" id="ajouter" ng-click="addTask()" class="btn btn-block btn-warning"
-                               value="Ajouter"/>
-                        <input type="submit" id="submit" class="btn btn-block btn-success"
-                               value="Sauvegarder"/>
-                    </div>
+
                 </div>
             </div>
         </div>
