@@ -29,7 +29,6 @@ toggl.controller('taskController', function($scope, $rootScope, TaskService) {
         $scope.selectedTask.timer = $scope.millisecondsToTimer(Date.now()-$scope.startTime);
         TaskService.updateTask($rootScope.token, $scope.selectedTask)
         .then(function successCallback(response) {
-            console.log(response.data);
         }, function errorCallback(response) {
             console.log("Erreur lors de la mise à jour de la tâche");
         });

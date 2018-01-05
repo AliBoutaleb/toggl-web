@@ -1,6 +1,6 @@
 'use strict';
 
-var toggl = angular.module('toggl', ['ngRoute','timer']);
+var toggl = angular.module('toggl', ['ngRoute','timer','ngCookies']);
 
 toggl.config(['$httpProvider','$routeProvider','$locationProvider',
     function($httpProvider, $routeProvider,$locationProvider) {
