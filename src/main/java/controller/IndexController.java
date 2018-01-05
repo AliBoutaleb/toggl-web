@@ -12,7 +12,6 @@ public class IndexController {
 
     @RequestMapping("/*")
     public ModelAndView reload(){
-        log.info("rm");
         return new ModelAndView("index");
     }
 }

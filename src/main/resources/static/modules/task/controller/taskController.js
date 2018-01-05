@@ -1,14 +1,15 @@
 toggl.controller('taskController', function($scope, $rootScope, TaskService) {
 
+    // Execute on load
     $scope.init = function () {
         $scope.tasks = [];
         $scope.selectedTask = [];
         $scope.selectedTask.title = "none";
-        $scope.setTimeOnTimer(0,0,0);
+        $scope.startTime = Date.now() - $scope.timerToMilliseconds(0,0,0);
         $scope.listTasks();
     };
 
-    // List tasks
+    // List task
     $scope.listTasks = function () {
         TaskService.listTasks($rootScope.token)
         .then(function successCallback(response) {
@@ -23,20 +24,23 @@ toggl.controller('taskController', function($scope, $rootScope, TaskService) {
         $scope.tasks.push({'title': '', 'owner': '', 'dueDate': ''});
     };
 
+    // Save a task
+    $scope.updateTask = function () {
+        $scope.selectedTask.timer = $scope.millisecondsToTimer(Date.now()-$scope.startTime);
+        TaskService.updateTask($rootScope.token, $scope.selectedTask)
+        .then(function successCallback(response) {
+            console.log(response.data);
+        }, function errorCallback(response) {
+            console.log("Erreur lors de la mise à jour de la tâche");
+        });
+    };
+
     // Select a task
     $scope.selectTask = function (index) {
         $scope.selectedTask = $scope.tasks[index];
         $scope.selectedTaskTime = $scope.selectedTask.timer.split(':');
-        $scope.setTimeOnTimer($scope.selectedTaskTime[0],$scope.selectedTaskTime[1],$scope.selectedTaskTime[2]);
-        $scope.stopTimer();
-    };
-
-    // Set time on timer
-    $scope.setTimeOnTimer = function (hours, minutes, seconds){
-        $scope.seconds = seconds;
-        $scope.minutes = minutes;
-        $scope.hours = hours;
-        $scope.startTime = Date.now()-$scope.seconds*1000-$scope.minutes*60*1000-$scope.hours*60*60*1000;
+        $scope.startTime = Date.now() - $scope.timerToMilliseconds($scope.selectedTaskTime[0],$scope.selectedTaskTime[1],$scope.selectedTaskTime[2]);
+        $scope.startTimer();
     };
 
     // Start timer
@@ -51,9 +55,28 @@ toggl.controller('taskController', function($scope, $rootScope, TaskService) {
         $scope.timerRunning = true;
     };
 
-    // Stop Timer
+    // Stop timer
     $scope.stopTimer = function (){
         $scope.$broadcast('timer-stop');
         $scope.timerRunning = false;
     };
+
+    // Convert timer to ms
+    $scope.timerToMilliseconds = function (hours, minutes, seconds){
+        return (hours*1000*60*60)+(minutes*1000*60)+(seconds*1000);
+    }
+
+    // Convert ms to timer (hh:mm:ss)
+    $scope.millisecondsToTimer = function (duration) {
+        var milliseconds = parseInt((duration%1000)/100)
+            , seconds = parseInt((duration/1000)%60)
+            , minutes = parseInt((duration/(1000*60))%60)
+            , hours = parseInt((duration/(1000*60*60))%24);
+
+        hours = (hours < 10) ? "0" + hours : hours;
+        minutes = (minutes < 10) ? "0" + minutes : minutes;
+        seconds = (seconds < 10) ? "0" + seconds : seconds;
+
+        return hours + ":" + minutes + ":" + seconds;
+    }
 });

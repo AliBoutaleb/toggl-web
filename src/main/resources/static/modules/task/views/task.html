@@ -2,22 +2,22 @@
     <div class="content-wrapper">
         <div class="container-fluid">
             <h5>Task on progress :</h5>
-            <div class="row col-md-12" style="margin-top: 25px">
+            <div class="row col-md-12" style="margin-top: 25px;">
                 <div class="col-sm-3">
                     <h5>Task : {{selectedTask.title}}</h5>
                 </div>
                 <div class="col-sm-3">
                     <h5>Timer :
-                        <timer start-time="startTime" interval="1000" auto-start="false">{{hours}}:{{minutes}}:{{seconds}}</timer>
+                        <timer start-time="startTime" end-time="endTime" interval="1000" auto-start="false">{{hours}}:{{minutes}}:{{seconds}}</timer>
                     </h5>
                 </div>
                 <div class="col-sm-2">
-                    <button type="button" class="btn btn-success" ng-disabled="timerRunning" ng-click="startTimer()"><i
-                            class="fa fa-play"></i></button>
-                    <button type="button" class="btn btn-warning" ng-disabled="timerRunning" ng-click="resumeTimer()"><i
+                    <button type="button" class="btn btn-success" ng-disabled="timerRunning" ng-click="resumeTimer()"><i
                             class="fa fa-play"></i></button>
                     <button type="button" class="btn btn-danger" ng-disabled="!timerRunning" ng-click="stopTimer()"><i
                             class="fa fa-stop"></i></button>
+                    <button type="button" class="btn btn-success" ng-disabled="timerRunning" ng-click="updateTask()"><i
+                            class="fa fa-save"></i></button>
                 </div>
             </div>
             <div class="row col-md-12" style="margin-top: 25px">
@@ -52,7 +52,6 @@
                         </tr>
                         </tbody>
                     </table>
-
                 </div>
             </div>
         </div>
