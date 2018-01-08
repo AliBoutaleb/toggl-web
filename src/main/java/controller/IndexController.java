@@ -14,7 +14,12 @@ public class IndexController {
     private static final Logger log = LoggerFactory.getLogger(IndexController.class);
 
     @RequestMapping("/task")
-    public ModelAndView reload(){
+    public ModelAndView task(){
+        return new ModelAndView("index.html");
+    }
+
+    @RequestMapping("/project")
+    public ModelAndView project(){
         return new ModelAndView("index.html");
     }
 }

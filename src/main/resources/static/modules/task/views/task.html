@@ -33,11 +33,11 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr class="animate-repeat" ng-repeat="task in tasks">
+                        <tr class="animate-repeat" ng-repeat="task in tasks | filter: { owner: user.id }">
                             <td><input type="text" class="form-control" name="title"
                                        ng-model="task.title" disabled></td>
                             <td><input type="text" class="form-control" name="owner"
-                                       ng-model="task.owner" disabled></td>
+                                       ng-model="user.full_name" disabled></td>
                             <td><input type="text" class="form-control" name="dueDate"
                                        ng-model="task.dueDate" disabled></td>
                             <td><input type="text" class="form-control" name="timer"

@@ -1,40 +1,21 @@
-toggl.controller('projectController', ['$scope', '$http',
-    function($scope, $http){
-        $scope.initProject = function() {
-            $scope.projects = [];
-            $scope.users = [];
-            $scope.listUsers();
+toggl.controller('projectController', function($scope, $rootScope, $http, ProjectService){
+
+        $scope.init = function() {
             $scope.listProjects();
-
-        }
-
-        // List users
-        $scope.listUsers = function() {
-            return $http({
-                method : 'GET',
-                url : 'http://localhost:8081/users',
-            })
-                .then(function successCallback(response) {
-                    $scope.users = response.data;
-                    console.log($scope.users);
-                }, function errorCallback(response) {
-                    console.log("Erreur lors de la récupération des utilisateurs");
-                });
         }
 
         // List projects
         $scope.listProjects = function() {
-            return $http({
-                method : 'GET',
-                url : 'http://localhost:8081/projects',
-            })
+            ProjectService.listProjects($rootScope.token)
                 .then(function successCallback(response) {
+                    $scope.projects = [];
                     $scope.projects = response.data;
                     console.log($scope.projects);
                 }, function errorCallback(response) {
                     console.log("Erreur lors de la récupération des projets");
                 });
         }
+
         // Add project
         $scope.addProject = function() {
             $scope.projects.push({libelle:"", creator:"", status:"", team:""})
@@ -57,4 +38,4 @@ toggl.controller('projectController', ['$scope', '$http',
             $scope.projects.splice($index, 1);
         }
     }
-]);
+);
